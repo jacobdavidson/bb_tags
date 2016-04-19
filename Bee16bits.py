@@ -201,12 +201,12 @@ def drawTag (s,x,cx,cy,rC,SWC,rA,rO,SWO):
 numBits = 11
 maxID = math.pow(2,numBits)
 
-#ALL THESE VALUES ARE SET ACCORDING TO THE VIEWBOX
-# 2 Uniits = 1 mm
-
 #Units in mm
 canvasW = 210
 canvasH = 405
+
+#ALL THESE VALUES ARE SET ACCORDING TO THE VIEWBOX
+# 2 Uniits = 1 mm
 
 #radius of circle
 rC = 3.5
