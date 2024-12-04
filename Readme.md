@@ -7,6 +7,8 @@ This repository contains tools and data for generating, managing, and decoding t
 ## Repository Contents
 
 ### Files and Folders
+- **Jupyter Notebooks**
+- `BeesBookTagGenerator-PDF-multipage.ipynb`: Jupyter Notebook for interactively generating multi-page PDFs of BeesBook tags, suitable for printing.  Can set parameters of tag size, coding type (parity-based or hamming), parity type, and other drawing details.
 - **Python Scripts**:
   - `BBTagGenFromList.py`: Script for generating tags from a provided list.
   - `Bee12bits.py`: Contains logic for 12-bit BeesBook tags, including parity-based separation of even and odd tags.
